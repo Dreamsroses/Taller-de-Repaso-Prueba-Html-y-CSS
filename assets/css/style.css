@@ -11,6 +11,8 @@
 	height: 400px;
 	background-repeat: no-repeat;
 	margin-bottom: 10px;
+	background-color: #3B3A35;
+
 }
 .card3{
 	background-image: url(../img/beans.png);
@@ -26,6 +28,7 @@
 .card__body1--transparente{
 	background-color: transparent;
     border: 1px solid black;
+    border-radius: 10px;
     opacity: 0.6;
     background-color: #000000;
     margin: 20px;
@@ -33,9 +36,10 @@
 	height: 200px;
 }
 .card__title1{
-	margin: 10px;
+	margin: 5px;
 	font-size: 50px;
 	color: white;
+	text-transform: uppercase;
 }
 .card__body2{
 	text-align: center;
@@ -44,13 +48,22 @@
 .card__body2--transparente{
 	background-color: transparent;
     border: 1px solid black;
+    border-radius: 10px;
     opacity: 0.6;
     background-color: #000000;
     float: right;
-    margin: 20px;
+    margin: 40px;
+    width: 500px;
+    max-height: auto;
 }
 .card__title2{
-	font-size: 50px;
+	margin: 20px;
+	font-size: 30px;
+	color: white;
+	text-transform: uppercase;
+}
+.card__text2{
+	margin: 10px;
 	color: white;
 }
 .card__body3{
@@ -60,67 +73,141 @@
 .card__body3--transparente{
 	background-color: transparent;
     border: 1px solid black;
+    border-radius: 10px;
     opacity: 0.6;
     background-color: #000000;
     float: right;
-    margin: 20px;
+    margin: 40px;
+    width: 500px;
+    max-height: auto;
 }
 .card__title3{
-	font-size: 50px;
+	margin: 10px;
+	font-size: 30px;
+	color: white;
+	text-transform: uppercase;
+}
+.card__text3{
+	margin: 10px;
 	color: white;
 }
 .btn__reserve{
 	text-decoration: none;
 	color: white;
+	margin-bottom: 40px;
+	border-radius: 10px;
+}
+.btn__unete{
+	text-decoration: none;
+	color: white;
+	margin-bottom: 30px;
+	border-radius: 10px;
+}
+.btn__search{
+	text-decoration: none;
+	color: white;
+	margin-bottom: 30px;
+	border-radius: 10px;
 }
 .fa-star{
 	font-size: 40px;
+	font-color: white;
+	margin: 5px;
+}
+.fa-thumbs-up{
+	font-size: 25px;
+}
+.fa-heart{
+	font-size: 30px;
 	font-color: white;
 }
 @media only screen and (min-width: 601px) and (max-width: 800px){
 .card1{
 	background-image: url(../img/banner1-medium.jpg);
 	height: 400px;
+	padding-top: 80px;
+}
+.card__body1{
+	text-align: center;
+	color: white;
+}
+.card__body1--transparente{
+    margin: 0px;
+    color: white;
 }
 .card2{
-	background-image: url(../img/stars2.png);
-	padding-top: 250px;
+	background-size: 100%;
+	height: 600px;
+	padding-top:250px;
+	max-width: 100%;
+	background-color: grey;
+}
+.card__body2--transparente{
+    margin: 30px;
+    max-width: 100%;
+}
+.card3{
+	background-size: 100%;
+	height: 700px;
+	padding-top:340px;
+	max-width: 100%;
+	background-color: grey;
 }
 }
-@media only screen and (min-width: 300px) and (max-width: 600px){
+@media (min-width: 300px) and (max-width: 600px){
 .card1{
 	background-image: url(../img/banner1-cell.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
-	height: 350px;
-}
-.card2{
-	background-image: url(../img/stars2-cell.png);
-	background-size: 100%;
-	height: 400px;
-	background-repeat: no-repeat;
-	padding-top: 100px;
-	padding-bottom: 0px;
-}
-.card3{
-	background-image: url(../img/beans-medium.png);
-	background-size: 100%;
-	height: 500px;
-	background-repeat: no-repeat;
+	height: 380px;
+	padding: 1px;
 }
 .card__body1{
-	padding: 0px;
+	padding: 10px;
 	margin: 1px;
 }
 .card__body1--transparente{
-    margin: 0px;
+    max-width: 100%;
+    padding: 10px;
+    height: 280px;
 }
-@media only screen and (min-width: 601px) and (max-width: 800px){
-.card1{
-	background-image: url(../img/banner1-medium.jpg);
-	height: 100px;
+.card__title1{
+	font-size: 30px;
 }
 .card2{
-	background-image: url(../img/stars2-cell.png);
+	background-size: 100%;
+	height: 550px;
+	background-repeat: no-repeat;
+	padding-top: 200px;
+	max-width: 100%;
+}
+.card__body2--transparente{
+    margin: 10px;
+    max-width: 100%;
+    padding: 20px;
+}
+.card__title2{
+	margin: 0px;
+}
+.card__text2{
+	margin: 5px;
+}
+.card3{
+	background-size: 100%;
+	height: 300px;
+	background-repeat: no-repeat;
+	padding-top: 270px;
+	max-width: 100%;
+}
+.card__body3--transparente{
+    margin: 10px;
+    max-width: 100%;
+    padding: 20px;
+}
+.card__title3{
+	margin: 0px;
+}
+.card__text3{
+	margin: 5px;
 }
 }
