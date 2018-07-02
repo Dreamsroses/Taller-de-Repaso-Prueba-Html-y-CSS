@@ -11,8 +11,7 @@
 	height: 400px;
 	background-repeat: no-repeat;
 	margin-bottom: 10px;
-	background-color: #3B3A35;
-
+	background-color: #1f1f1f;
 }
 .card3{
 	background-image: url(../img/beans.png);
@@ -121,6 +120,25 @@
 	font-size: 30px;
 	font-color: white;
 }
+.img__fb{
+  	width: 60px;
+ 	height: 60px;
+	margin: 5px;
+}
+.img__tw{
+  	width: 60px;
+ 	height: 60px;
+	margin: 5px;
+}
+.logo__footer{
+	width: 60px; 
+	height: 60px;
+	margin: 20px;
+	display: inline-block;
+}
+.card__footer--nav{
+	background-color: #00704a;
+}
 @media only screen and (min-width: 601px) and (max-width: 800px){
 .card1{
 	background-image: url(../img/banner1-medium.jpg);
@@ -152,6 +170,17 @@
 	padding-top:340px;
 	max-width: 100%;
 	background-color: grey;
+}
+.img__fb{
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+.img__tw{
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+.logo__footer{
+	margin-bottom: 35px;
 }
 }
 @media (min-width: 300px) and (max-width: 600px){
@@ -209,5 +238,16 @@
 }
 .card__text3{
 	margin: 5px;
+}
+.img__fb{
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+.img__tw{
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+.logo__footer{
+	margin-bottom: 35px;
 }
 }
